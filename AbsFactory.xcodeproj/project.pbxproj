@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7ECD596014F7D8B7009B4498 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECD595F14F7D8B7009B4498 /* UIKit.framework */; };
+		7ECD596214F7D8B7009B4498 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECD596114F7D8B7009B4498 /* Foundation.framework */; };
+		7ECD596414F7D8B7009B4498 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECD596314F7D8B7009B4498 /* CoreGraphics.framework */; };
+		7ECD596A14F7D8B7009B4498 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7ECD596814F7D8B7009B4498 /* InfoPlist.strings */; };
+		7ECD596C14F7D8B7009B4498 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECD596B14F7D8B7009B4498 /* main.m */; };
+		7ECD597014F7D8B8009B4498 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECD596F14F7D8B8009B4498 /* AppDelegate.m */; };
+		7ECD597314F7D8B8009B4498 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECD597214F7D8B8009B4498 /* ViewController.m */; };
+		7ECD597614F7D8B8009B4498 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ECD597414F7D8B8009B4498 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7ECD595B14F7D8B7009B4498 /* AbsFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbsFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ECD595F14F7D8B7009B4498 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7ECD596114F7D8B7009B4498 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7ECD596314F7D8B7009B4498 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7ECD596714F7D8B7009B4498 /* AbsFactory-Info.plist */ = {isa = PBXFileReference; path = "AbsFactory-Info.plist"; sourceTree = "<group>"; };
+		7ECD596914F7D8B7009B4498 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7ECD596B14F7D8B7009B4498 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7ECD596D14F7D8B8009B4498 /* AbsFactory-Prefix.pch */ = {isa = PBXFileReference; path = "AbsFactory-Prefix.pch"; sourceTree = "<group>"; };
+		7ECD596E14F7D8B8009B4498 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7ECD596F14F7D8B8009B4498 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7ECD597114F7D8B8009B4498 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		7ECD597214F7D8B8009B4498 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7ECD597514F7D8B8009B4498 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ECD595814F7D8B7009B4498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECD596014F7D8B7009B4498 /* UIKit.framework in Frameworks */,
+				7ECD596214F7D8B7009B4498 /* Foundation.framework in Frameworks */,
+				7ECD596414F7D8B7009B4498 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ECD595014F7D8B7009B4498 = {
+			isa = PBXGroup;
+			children = (
+				7ECD596514F7D8B7009B4498 /* AbsFactory */,
+				7ECD595E14F7D8B7009B4498 /* Frameworks */,
+				7ECD595C14F7D8B7009B4498 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7ECD595C14F7D8B7009B4498 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ECD595B14F7D8B7009B4498 /* AbsFactory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ECD595E14F7D8B7009B4498 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ECD595F14F7D8B7009B4498 /* UIKit.framework */,
+				7ECD596114F7D8B7009B4498 /* Foundation.framework */,
+				7ECD596314F7D8B7009B4498 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7ECD596514F7D8B7009B4498 /* AbsFactory */ = {
+			isa = PBXGroup;
+			children = (
+				7ECD596E14F7D8B8009B4498 /* AppDelegate.h */,
+				7ECD596F14F7D8B8009B4498 /* AppDelegate.m */,
+				7ECD597114F7D8B8009B4498 /* ViewController.h */,
+				7ECD597214F7D8B8009B4498 /* ViewController.m */,
+				7ECD597414F7D8B8009B4498 /* ViewController.xib */,
+				7ECD596614F7D8B7009B4498 /* Supporting Files */,
+			);
+			path = AbsFactory;
+			sourceTree = "<group>";
+		};
+		7ECD596614F7D8B7009B4498 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ECD596714F7D8B7009B4498 /* AbsFactory-Info.plist */,
+				7ECD596814F7D8B7009B4498 /* InfoPlist.strings */,
+				7ECD596B14F7D8B7009B4498 /* main.m */,
+				7ECD596D14F7D8B8009B4498 /* AbsFactory-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ECD595A14F7D8B7009B4498 /* AbsFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ECD597914F7D8B8009B4498 /* Build configuration list for PBXNativeTarget "AbsFactory" */;
+			buildPhases = (
+				7ECD595714F7D8B7009B4498 /* Sources */,
+				7ECD595814F7D8B7009B4498 /* Frameworks */,
+				7ECD595914F7D8B7009B4498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbsFactory;
+			productName = AbsFactory;
+			productReference = 7ECD595B14F7D8B7009B4498 /* AbsFactory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ECD595214F7D8B7009B4498 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7ECD595514F7D8B7009B4498 /* Build configuration list for PBXProject "AbsFactory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7ECD595014F7D8B7009B4498;
+			productRefGroup = 7ECD595C14F7D8B7009B4498 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ECD595A14F7D8B7009B4498 /* AbsFactory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ECD595914F7D8B7009B4498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECD596A14F7D8B7009B4498 /* InfoPlist.strings in Resources */,
+				7ECD597614F7D8B8009B4498 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ECD595714F7D8B7009B4498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECD596C14F7D8B7009B4498 /* main.m in Sources */,
+				7ECD597014F7D8B8009B4498 /* AppDelegate.m in Sources */,
+				7ECD597314F7D8B8009B4498 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7ECD596814F7D8B7009B4498 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ECD596914F7D8B7009B4498 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7ECD597414F7D8B8009B4498 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ECD597514F7D8B8009B4498 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ECD597714F7D8B8009B4498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7ECD597814F7D8B8009B4498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ECD597A14F7D8B8009B4498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AbsFactory/AbsFactory-Prefix.pch";
+				INFOPLIST_FILE = "AbsFactory/AbsFactory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7ECD597B14F7D8B8009B4498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AbsFactory/AbsFactory-Prefix.pch";
+				INFOPLIST_FILE = "AbsFactory/AbsFactory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ECD595514F7D8B7009B4498 /* Build configuration list for PBXProject "AbsFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ECD597714F7D8B8009B4498 /* Debug */,
+				7ECD597814F7D8B8009B4498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ECD597914F7D8B8009B4498 /* Build configuration list for PBXNativeTarget "AbsFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ECD597A14F7D8B8009B4498 /* Debug */,
+				7ECD597B14F7D8B8009B4498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ECD595214F7D8B7009B4498 /* Project object */;
+}
