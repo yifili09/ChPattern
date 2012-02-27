@@ -15,6 +15,8 @@
 		7ECD597014F7D8B8009B4498 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECD596F14F7D8B8009B4498 /* AppDelegate.m */; };
 		7ECD597314F7D8B8009B4498 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECD597214F7D8B8009B4498 /* ViewController.m */; };
 		7ECD597614F7D8B8009B4498 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ECD597414F7D8B8009B4498 /* ViewController.xib */; };
+		7ECD597F14F7D901009B4498 /* BrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECD597E14F7D901009B4498 /* BrandingFactory.m */; };
+		7ECD598214F7D9D7009B4498 /* AcmeBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECD598114F7D9D7009B4498 /* AcmeBrandingFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,19 @@
 		7ECD595F14F7D8B7009B4498 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7ECD596114F7D8B7009B4498 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7ECD596314F7D8B7009B4498 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7ECD596714F7D8B7009B4498 /* AbsFactory-Info.plist */ = {isa = PBXFileReference; path = "AbsFactory-Info.plist"; sourceTree = "<group>"; };
+		7ECD596714F7D8B7009B4498 /* AbsFactory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AbsFactory-Info.plist"; sourceTree = "<group>"; };
 		7ECD596914F7D8B7009B4498 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7ECD596B14F7D8B7009B4498 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7ECD596D14F7D8B8009B4498 /* AbsFactory-Prefix.pch */ = {isa = PBXFileReference; path = "AbsFactory-Prefix.pch"; sourceTree = "<group>"; };
-		7ECD596E14F7D8B8009B4498 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7ECD596D14F7D8B8009B4498 /* AbsFactory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AbsFactory-Prefix.pch"; sourceTree = "<group>"; };
+		7ECD596E14F7D8B8009B4498 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7ECD596F14F7D8B8009B4498 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7ECD597114F7D8B8009B4498 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		7ECD597114F7D8B8009B4498 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7ECD597214F7D8B8009B4498 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7ECD597514F7D8B8009B4498 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7ECD597D14F7D901009B4498 /* BrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandingFactory.h; sourceTree = "<group>"; };
+		7ECD597E14F7D901009B4498 /* BrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandingFactory.m; sourceTree = "<group>"; };
+		7ECD598014F7D9D7009B4498 /* AcmeBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeBrandingFactory.h; sourceTree = "<group>"; };
+		7ECD598114F7D9D7009B4498 /* AcmeBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeBrandingFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		7ECD596514F7D8B7009B4498 /* AbsFactory */ = {
 			isa = PBXGroup;
 			children = (
+				7ECD597C14F7D8EC009B4498 /* Abstract */,
 				7ECD596E14F7D8B8009B4498 /* AppDelegate.h */,
 				7ECD596F14F7D8B8009B4498 /* AppDelegate.m */,
 				7ECD597114F7D8B8009B4498 /* ViewController.h */,
@@ -96,6 +103,17 @@
 				7ECD596D14F7D8B8009B4498 /* AbsFactory-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7ECD597C14F7D8EC009B4498 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				7ECD597D14F7D901009B4498 /* BrandingFactory.h */,
+				7ECD597E14F7D901009B4498 /* BrandingFactory.m */,
+				7ECD598014F7D9D7009B4498 /* AcmeBrandingFactory.h */,
+				7ECD598114F7D9D7009B4498 /* AcmeBrandingFactory.m */,
+			);
+			name = Abstract;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +181,8 @@
 				7ECD596C14F7D8B7009B4498 /* main.m in Sources */,
 				7ECD597014F7D8B8009B4498 /* AppDelegate.m in Sources */,
 				7ECD597314F7D8B8009B4498 /* ViewController.m in Sources */,
+				7ECD597F14F7D901009B4498 /* BrandingFactory.m in Sources */,
+				7ECD598214F7D9D7009B4498 /* AcmeBrandingFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
