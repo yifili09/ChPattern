@@ -17,6 +17,8 @@
 		7ECD597614F7D8B8009B4498 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ECD597414F7D8B8009B4498 /* ViewController.xib */; };
 		7ECD597F14F7D901009B4498 /* BrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECD597E14F7D901009B4498 /* BrandingFactory.m */; };
 		7ECD598214F7D9D7009B4498 /* AcmeBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECD598114F7D9D7009B4498 /* AcmeBrandingFactory.m */; };
+		7EF4079914FB909C00BA2BFB /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF4079714FB909C00BA2BFB /* TestController.m */; };
+		7EF4079A14FB909C00BA2BFB /* TestController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EF4079814FB909C00BA2BFB /* TestController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		7ECD597E14F7D901009B4498 /* BrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandingFactory.m; sourceTree = "<group>"; };
 		7ECD598014F7D9D7009B4498 /* AcmeBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeBrandingFactory.h; sourceTree = "<group>"; };
 		7ECD598114F7D9D7009B4498 /* AcmeBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeBrandingFactory.m; sourceTree = "<group>"; };
+		7EF4079614FB909C00BA2BFB /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
+		7EF4079714FB909C00BA2BFB /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
+		7EF4079814FB909C00BA2BFB /* TestController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +117,9 @@
 				7ECD597E14F7D901009B4498 /* BrandingFactory.m */,
 				7ECD598014F7D9D7009B4498 /* AcmeBrandingFactory.h */,
 				7ECD598114F7D9D7009B4498 /* AcmeBrandingFactory.m */,
+				7EF4079614FB909C00BA2BFB /* TestController.h */,
+				7EF4079714FB909C00BA2BFB /* TestController.m */,
+				7EF4079814FB909C00BA2BFB /* TestController.xib */,
 			);
 			name = Abstract;
 			sourceTree = "<group>";
@@ -168,6 +176,7 @@
 			files = (
 				7ECD596A14F7D8B7009B4498 /* InfoPlist.strings in Resources */,
 				7ECD597614F7D8B8009B4498 /* ViewController.xib in Resources */,
+				7EF4079A14FB909C00BA2BFB /* TestController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +192,7 @@
 				7ECD597314F7D8B8009B4498 /* ViewController.m in Sources */,
 				7ECD597F14F7D901009B4498 /* BrandingFactory.m in Sources */,
 				7ECD598214F7D9D7009B4498 /* AcmeBrandingFactory.m in Sources */,
+				7EF4079914FB909C00BA2BFB /* TestController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +302,7 @@
 				7ECD597B14F7D8B8009B4498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
